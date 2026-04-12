@@ -1,0 +1,30 @@
+[
+  {
+    "vehicle_make_id": 1,
+    "vehicle_make": "Toyota"
+  },
+  {
+    "vehicle_make_id": 2,
+    "vehicle_make": "Honda"
+  },
+  {
+    "vehicle_make_id": 3,
+    "vehicle_make": "Ford"
+  },
+  {
+    "vehicle_make_id": 4,
+    "vehicle_make": "Chevrolet"
+  },
+  {
+    "vehicle_make_id": 5,
+    "vehicle_make": "Nissan"
+  },
+  {
+    "vehicle_make_id": 6,
+    "vehicle_make": "BMW"
+  },
+  {
+    "vehicle_make_id": 7,
+    "vehicle_make": "Mercedes"
+  }
+]
