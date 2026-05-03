@@ -26,7 +26,7 @@ This pipeline implements the **Medallion Architecture (Bronze ➔ Silver ➔ Gol
    - Using Spark SQL and Databricks DLT features, the staging rides are enriched by joining them with all mapping dimension tables.
    - The result is a highly optimized **One Big Table (OBT)** ready for fast querying, BI dashboards, and ML models.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Data Processing & Orchestration:** Databricks, Delta Live Tables (DLT), PySpark, Spark SQL, Delta Lake
 - **Streaming & Messaging:** Azure Event Hubs, Kafka API
@@ -42,7 +42,7 @@ This pipeline implements the **Medallion Architecture (Bronze ➔ Silver ➔ Gol
   - `silver.py`: DLT pipeline handling the stream/batch union and JSON schema parsing.
   - `silver_obt.sql` / `.ipynb`: Creation of the Gold Layer (One Big Table) joining facts and dimensions using streaming watermarks.
 
-## 🚀 How to Run Locally (Producer App)
+## How to Run Locally (Producer App)
 
 If you'd like to spin up the data generator locally:
 
