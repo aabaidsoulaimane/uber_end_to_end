@@ -1,14 +1,14 @@
-# 🚖 Uber End-to-End Data Engineering Project
+#  Uber End-to-End Data Engineering Project
 
 Welcome to the **Uber End-to-End Data Engineering Project**! This repository demonstrates a complete, production-ready data pipeline built around a Medallion Architecture. It features real-time data streaming, batch processing, and a scalable cloud data lake.
 
 If you found this project via LinkedIn, I'd love to connect and hear your thoughts on Data Engineering!
 
-## 🌟 Project Overview
+##  Project Overview
 
 The goal of this project is to simulate and process Uber ride data in near real-time, combining streaming events with historical batch data to create a unified source of truth for business intelligence and analytics.
 
-### 🏗️ Architecture & Flow
+###  Architecture & Flow
 This pipeline implements the **Medallion Architecture (Bronze ➔ Silver ➔ Gold)**:
 
 1. **Data Generation (The "Producer")**:
@@ -33,7 +33,7 @@ This pipeline implements the **Medallion Architecture (Bronze ➔ Silver ➔ Gol
 - **Cloud Storage:** Azure Data Lake Storage (ADLS Gen2)
 - **Data Producer / API:** Python, FastAPI, Uvicorn, Jinja2, Faker
 
-## 📂 Repository Structure
+##  Repository Structure
 
 - `/` (Root): The FastAPI web app simulating the Uber rides and pushing to Event Hubs.
 - `Code_Files/`: Contains the Databricks pipelines and DLT code.
